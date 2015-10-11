@@ -1,0 +1,1 @@
+javascript:(function(){var text = "";if (window.getSelection) {text = window.getSelection().toString();} else if (document.selection && document.selection.type != "Control") {text = document.selection.createRange().text;}window.open("https://www.google.com/search?as_epq="+text,'_blank') })
